@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "0cb4544b64c42aa998e6b4830daf17ef"
+name = "Diamonds Filter"
+handle = "diamonds-filter-2"
+application_url = "https://temporarily-unauthorized-formats-twiki.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "narie-store.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://temporarily-unauthorized-formats-twiki.trycloudflare.com/auth/callback",
+  "https://temporarily-unauthorized-formats-twiki.trycloudflare.com/auth/shopify/callback",
+  "https://temporarily-unauthorized-formats-twiki.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
